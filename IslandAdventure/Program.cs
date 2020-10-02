@@ -63,7 +63,8 @@ namespace IslandAdventure
                 if (input == "a")
                 {
                     Console.WriteLine();
-                    Console.WriteLine("Oh no! Seems you were right to be worried. The berries you found were poison berries!");
+                    Console.WriteLine("Oh no! Seems you were right to be worried.");
+                    Console.WriteLine("The berries you found were poison berries!");
                     Console.WriteLine("You won't make it off the island because you're dead.");
                     Console.WriteLine();
                     Console.WriteLine("xxxxxxxxxxxxxxxxxxxxxx");
@@ -77,7 +78,8 @@ namespace IslandAdventure
                     Console.WriteLine("It was tricky to catch the fish, but you did it!");
                     Console.WriteLine("It was such a feast and you've never tasted fish so delicious in your life!");
                     Console.WriteLine();
-                    Console.WriteLine("After eating, you look around the island and realize you have to find a way home.");
+                    Console.WriteLine("After eating,");
+                    Console.WriteLine("you look around the island and realize you have to find a way home.");
                     Console.WriteLine("But how??");
                     Console.WriteLine();
                     Console.WriteLine("As you're looking around, you find all the supplies you'd need to get home.");
@@ -91,14 +93,14 @@ namespace IslandAdventure
                     Console.WriteLine("Should you play it safe instead?");
                     Console.WriteLine("You could build an S.O.S. sign on the beach...");
                     Console.WriteLine("big enough for a passing plane to see!");
-                    Console.WriteLine(".....................................................................................");
+                    Console.WriteLine("......................................");
                     Console.WriteLine("Type 'a' if you would like to build a raft or 'b' to build an S.O.S. sign:");
                     input = Console.ReadLine();
                     if (input == "a")
                     {
                         Console.WriteLine();
                         Console.WriteLine("Your boat came together pretty quickly and honeslty doesn't look half bad,");
-                        Console.WriteLine("but you didn't think about how long it could stay afloat");
+                        Console.WriteLine("but you didn't think about how long it could stay afloat.");
                         Console.WriteLine();
                         Console.WriteLine("You push past the waves and finally make it out to open waters...");
                         Console.WriteLine("where your boat starts taking in water!");
